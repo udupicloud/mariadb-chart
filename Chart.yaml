@@ -12,5 +12,5 @@ keywords:
 #  - https://github.com/adfinis-sygroup/openshift-mariadb-galera
 maintainers:
   - name: Omnion-IT
-    email: support@Omnion.ch
+    email: it@omnion.in
 engine: gotpl
