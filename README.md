@@ -53,8 +53,8 @@ The following tables lists the configurable parameters of the MariaDB chart and 
 | `persistence.enabled`      | Use a PVC to persist data                  | `true`                                                     |
 | `persistence.storageClass` | Storage class of backing PVC               | `nil` (uses alpha storage class annotation)                |
 | `persistence.accessMode`   | Use volume as ReadOnly or ReadWrite        | `ReadWriteOnce`                                            |
-| `persistence.size`         | Size of data volume                        | `8Gi`                                                      |
-| `resources`                | CPU/Memory resource requests/limits        | Memory: `256Mi`, CPU: `250m`                               |
+| `persistence.size`         | Size of data volume                        | `200Gi`                                                      |
+| `resources`                | CPU/Memory resource requests/limits        | Memory: `8Gi`, CPU: `2`                               |
 | `config`                   | Multi-line string for my.cnf configuration | `nil`                                                      |
 
 The above parameters map to the env variables defined in the [adfinis-sygroup/openshift-mariadb-galera](https://github.com/adfinis-sygroup/openshift-mariadb-galera).
