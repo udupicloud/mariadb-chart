@@ -1,7 +1,7 @@
 ## Omnion-IT MariaDB Galera image version
 ##
 ## Default: none
-image: ajinky03/mariadb-galera:v10
+image: 8378006361/mariadb:v1
 
 ## Specify an imagePullPolicy (Required)
 ## It's recommended to change this to 'Always' if the image tag is 'latest'
@@ -31,7 +31,7 @@ persistence:
   ##
   # storageClass: 
   accessMode: ReadWriteOnce
-  size: 8Gi
+  size: 200Gi
 
 ## Configure MariaDB with a custom my.cnf file
 ## ref: https://mariadb.com/kb/en/mariadb/configuring-mariadb-with-mycnf/#example-of-configuration-file
@@ -45,5 +45,5 @@ persistence:
 ##
 resources:
   requests:
-    memory: 16Gi
-    cpu: 2.5
+    memory: 8Gi
+    cpu: 2
