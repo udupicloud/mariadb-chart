@@ -1,1 +1,1 @@
-# mariadb-chart
+# mariadb-galera

@@ -1,0 +1,16 @@
+name: mariadb-galera
+version: 4.3.3
+description: Chart for MariaDB Galera cluster
+keywords:
+  - mariadb
+  - mysql
+  - database
+  - sql
+  - galera
+  - cluster
+#sources:
+#  - https://github.com/adfinis-sygroup/openshift-mariadb-galera
+maintainers:
+  - name: Omnion-IT
+    email: support@Omnion.ch
+engine: gotpl
